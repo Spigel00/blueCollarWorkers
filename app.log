@@ -1,0 +1,46 @@
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+Exception on /jobs/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\ashwa\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwa\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwa\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwa\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwa\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ashwa\OneDrive\Desktop\project2\work-force-matchup\backend\routes\jobs.py", line 16, in list_jobs
+    result = [{
+             ^^
+  File "C:\Users\ashwa\OneDrive\Desktop\project2\work-force-matchup\backend\routes\jobs.py", line 19, in <listcomp>
+    "description": job.description,
+                   ^^^^^^^^^^^^^^^
+AttributeError: 'Job' object has no attribute 'description'
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
+DATABASE_URI is missing in the .env file
+JWT_SECRET_KEY is missing in the .env file
